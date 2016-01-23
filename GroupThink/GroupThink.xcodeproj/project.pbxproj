@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF2944721C53358000B20886 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2944711C53358000B20886 /* main.m */; };
+		FF2944751C53358000B20886 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2944741C53358000B20886 /* AppDelegate.m */; };
+		FF29447B1C53358000B20886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF2944791C53358000B20886 /* Main.storyboard */; };
+		FF29447D1C53358000B20886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF29447C1C53358000B20886 /* Assets.xcassets */; };
+		FF2944801C53358000B20886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF29447E1C53358000B20886 /* LaunchScreen.storyboard */; };
+		FF29448B1C53358000B20886 /* GroupThinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF29448A1C53358000B20886 /* GroupThinkTests.m */; };
+		FF2944961C53358000B20886 /* GroupThinkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2944951C53358000B20886 /* GroupThinkUITests.m */; };
+		FF2944A51C53380200B20886 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2944A41C53380200B20886 /* HomeVC.m */; };
+		FF2944A81C53382D00B20886 /* AddQuestionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2944A71C53382D00B20886 /* AddQuestionVC.m */; };
+		FF2944AB1C53384D00B20886 /* ChooseFriendsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2944AA1C53384D00B20886 /* ChooseFriendsVC.m */; };
+		FF2944AE1C53386800B20886 /* VoteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2944AD1C53386800B20886 /* VoteVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF2944871C53358000B20886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF2944651C53358000B20886 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF29446C1C53358000B20886;
+			remoteInfo = GroupThink;
+		};
+		FF2944921C53358000B20886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF2944651C53358000B20886 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF29446C1C53358000B20886;
+			remoteInfo = GroupThink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF29446D1C53358000B20886 /* GroupThink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupThink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2944711C53358000B20886 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF2944731C53358000B20886 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF2944741C53358000B20886 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF29447A1C53358000B20886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF29447C1C53358000B20886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF29447F1C53358000B20886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF2944811C53358000B20886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF2944861C53358000B20886 /* GroupThinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroupThinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF29448A1C53358000B20886 /* GroupThinkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupThinkTests.m; sourceTree = "<group>"; };
+		FF29448C1C53358000B20886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF2944911C53358000B20886 /* GroupThinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroupThinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2944951C53358000B20886 /* GroupThinkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupThinkUITests.m; sourceTree = "<group>"; };
+		FF2944971C53358000B20886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF2944A31C53380200B20886 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		FF2944A41C53380200B20886 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		FF2944A61C53382D00B20886 /* AddQuestionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddQuestionVC.h; sourceTree = "<group>"; };
+		FF2944A71C53382D00B20886 /* AddQuestionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddQuestionVC.m; sourceTree = "<group>"; };
+		FF2944A91C53384D00B20886 /* ChooseFriendsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseFriendsVC.h; sourceTree = "<group>"; };
+		FF2944AA1C53384D00B20886 /* ChooseFriendsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseFriendsVC.m; sourceTree = "<group>"; };
+		FF2944AC1C53386800B20886 /* VoteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoteVC.h; sourceTree = "<group>"; };
+		FF2944AD1C53386800B20886 /* VoteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoteVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF29446A1C53358000B20886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2944831C53358000B20886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF29448E1C53358000B20886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF2944641C53358000B20886 = {
+			isa = PBXGroup;
+			children = (
+				FF29446F1C53358000B20886 /* GroupThink */,
+				FF2944891C53358000B20886 /* GroupThinkTests */,
+				FF2944941C53358000B20886 /* GroupThinkUITests */,
+				FF29446E1C53358000B20886 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF29446E1C53358000B20886 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF29446D1C53358000B20886 /* GroupThink.app */,
+				FF2944861C53358000B20886 /* GroupThinkTests.xctest */,
+				FF2944911C53358000B20886 /* GroupThinkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF29446F1C53358000B20886 /* GroupThink */ = {
+			isa = PBXGroup;
+			children = (
+				FF2944731C53358000B20886 /* AppDelegate.h */,
+				FF2944741C53358000B20886 /* AppDelegate.m */,
+				FF2944A31C53380200B20886 /* HomeVC.h */,
+				FF2944A41C53380200B20886 /* HomeVC.m */,
+				FF2944A61C53382D00B20886 /* AddQuestionVC.h */,
+				FF2944A71C53382D00B20886 /* AddQuestionVC.m */,
+				FF2944A91C53384D00B20886 /* ChooseFriendsVC.h */,
+				FF2944AA1C53384D00B20886 /* ChooseFriendsVC.m */,
+				FF2944AC1C53386800B20886 /* VoteVC.h */,
+				FF2944AD1C53386800B20886 /* VoteVC.m */,
+				FF2944791C53358000B20886 /* Main.storyboard */,
+				FF29447C1C53358000B20886 /* Assets.xcassets */,
+				FF29447E1C53358000B20886 /* LaunchScreen.storyboard */,
+				FF2944811C53358000B20886 /* Info.plist */,
+				FF2944701C53358000B20886 /* Supporting Files */,
+			);
+			path = GroupThink;
+			sourceTree = "<group>";
+		};
+		FF2944701C53358000B20886 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF2944711C53358000B20886 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF2944891C53358000B20886 /* GroupThinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF29448A1C53358000B20886 /* GroupThinkTests.m */,
+				FF29448C1C53358000B20886 /* Info.plist */,
+			);
+			path = GroupThinkTests;
+			sourceTree = "<group>";
+		};
+		FF2944941C53358000B20886 /* GroupThinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF2944951C53358000B20886 /* GroupThinkUITests.m */,
+				FF2944971C53358000B20886 /* Info.plist */,
+			);
+			path = GroupThinkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF29446C1C53358000B20886 /* GroupThink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF29449A1C53358000B20886 /* Build configuration list for PBXNativeTarget "GroupThink" */;
+			buildPhases = (
+				FF2944691C53358000B20886 /* Sources */,
+				FF29446A1C53358000B20886 /* Frameworks */,
+				FF29446B1C53358000B20886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroupThink;
+			productName = GroupThink;
+			productReference = FF29446D1C53358000B20886 /* GroupThink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF2944851C53358000B20886 /* GroupThinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF29449D1C53358000B20886 /* Build configuration list for PBXNativeTarget "GroupThinkTests" */;
+			buildPhases = (
+				FF2944821C53358000B20886 /* Sources */,
+				FF2944831C53358000B20886 /* Frameworks */,
+				FF2944841C53358000B20886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF2944881C53358000B20886 /* PBXTargetDependency */,
+			);
+			name = GroupThinkTests;
+			productName = GroupThinkTests;
+			productReference = FF2944861C53358000B20886 /* GroupThinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF2944901C53358000B20886 /* GroupThinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF2944A01C53358000B20886 /* Build configuration list for PBXNativeTarget "GroupThinkUITests" */;
+			buildPhases = (
+				FF29448D1C53358000B20886 /* Sources */,
+				FF29448E1C53358000B20886 /* Frameworks */,
+				FF29448F1C53358000B20886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF2944931C53358000B20886 /* PBXTargetDependency */,
+			);
+			name = GroupThinkUITests;
+			productName = GroupThinkUITests;
+			productReference = FF2944911C53358000B20886 /* GroupThinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF2944651C53358000B20886 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Steven Kang";
+				TargetAttributes = {
+					FF29446C1C53358000B20886 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3XKWN29WAP;
+					};
+					FF2944851C53358000B20886 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FF29446C1C53358000B20886;
+					};
+					FF2944901C53358000B20886 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FF29446C1C53358000B20886;
+					};
+				};
+			};
+			buildConfigurationList = FF2944681C53358000B20886 /* Build configuration list for PBXProject "GroupThink" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF2944641C53358000B20886;
+			productRefGroup = FF29446E1C53358000B20886 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF29446C1C53358000B20886 /* GroupThink */,
+				FF2944851C53358000B20886 /* GroupThinkTests */,
+				FF2944901C53358000B20886 /* GroupThinkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF29446B1C53358000B20886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2944801C53358000B20886 /* LaunchScreen.storyboard in Resources */,
+				FF29447D1C53358000B20886 /* Assets.xcassets in Resources */,
+				FF29447B1C53358000B20886 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2944841C53358000B20886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF29448F1C53358000B20886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF2944691C53358000B20886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2944AE1C53386800B20886 /* VoteVC.m in Sources */,
+				FF2944A81C53382D00B20886 /* AddQuestionVC.m in Sources */,
+				FF2944AB1C53384D00B20886 /* ChooseFriendsVC.m in Sources */,
+				FF2944A51C53380200B20886 /* HomeVC.m in Sources */,
+				FF2944751C53358000B20886 /* AppDelegate.m in Sources */,
+				FF2944721C53358000B20886 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2944821C53358000B20886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF29448B1C53358000B20886 /* GroupThinkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF29448D1C53358000B20886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2944961C53358000B20886 /* GroupThinkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF2944881C53358000B20886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF29446C1C53358000B20886 /* GroupThink */;
+			targetProxy = FF2944871C53358000B20886 /* PBXContainerItemProxy */;
+		};
+		FF2944931C53358000B20886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF29446C1C53358000B20886 /* GroupThink */;
+			targetProxy = FF2944921C53358000B20886 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF2944791C53358000B20886 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF29447A1C53358000B20886 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF29447E1C53358000B20886 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF29447F1C53358000B20886 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF2944981C53358000B20886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF2944991C53358000B20886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF29449B1C53358000B20886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = GroupThink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Steven-Kang.GroupThink";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		FF29449C1C53358000B20886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = GroupThink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Steven-Kang.GroupThink";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		FF29449E1C53358000B20886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GroupThinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Steven-Kang.GroupThinkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroupThink.app/GroupThink";
+			};
+			name = Debug;
+		};
+		FF29449F1C53358000B20886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GroupThinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Steven-Kang.GroupThinkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroupThink.app/GroupThink";
+			};
+			name = Release;
+		};
+		FF2944A11C53358000B20886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GroupThinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Steven-Kang.GroupThinkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GroupThink;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FF2944A21C53358000B20886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GroupThinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Steven-Kang.GroupThinkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GroupThink;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF2944681C53358000B20886 /* Build configuration list for PBXProject "GroupThink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2944981C53358000B20886 /* Debug */,
+				FF2944991C53358000B20886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF29449A1C53358000B20886 /* Build configuration list for PBXNativeTarget "GroupThink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF29449B1C53358000B20886 /* Debug */,
+				FF29449C1C53358000B20886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF29449D1C53358000B20886 /* Build configuration list for PBXNativeTarget "GroupThinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF29449E1C53358000B20886 /* Debug */,
+				FF29449F1C53358000B20886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF2944A01C53358000B20886 /* Build configuration list for PBXNativeTarget "GroupThinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF2944A11C53358000B20886 /* Debug */,
+				FF2944A21C53358000B20886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF2944651C53358000B20886 /* Project object */;
+}
