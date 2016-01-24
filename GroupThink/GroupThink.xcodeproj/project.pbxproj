@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF0711321C54846600C3C50E /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0711311C54846600C3C50E /* LoginVC.m */; };
+		FF0711351C54847000C3C50E /* RegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0711341C54847000C3C50E /* RegisterVC.m */; };
+		FF0711381C5484A700C3C50E /* SettingsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0711371C5484A700C3C50E /* SettingsTVC.m */; };
+		FF07113A1C548DE100C3C50E /* settings icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FF0711391C548DE100C3C50E /* settings icon.png */; };
+		FF07113D1C548E3300C3C50E /* settings icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF07113C1C548E3300C3C50E /* settings icon@2x.png */; };
+		FF0711401C54923A00C3C50E /* xbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = FF07113E1C54923A00C3C50E /* xbutton.png */; };
+		FF0711411C54923A00C3C50E /* xbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF07113F1C54923A00C3C50E /* xbutton@2x.png */; };
 		FF2944721C53358000B20886 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2944711C53358000B20886 /* main.m */; };
 		FF2944751C53358000B20886 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2944741C53358000B20886 /* AppDelegate.m */; };
 		FF29447B1C53358000B20886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF2944791C53358000B20886 /* Main.storyboard */; };
@@ -18,6 +25,8 @@
 		FF2944A81C53382D00B20886 /* AddQuestionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2944A71C53382D00B20886 /* AddQuestionVC.m */; };
 		FF2944AB1C53384D00B20886 /* ChooseFriendsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2944AA1C53384D00B20886 /* ChooseFriendsVC.m */; };
 		FF2944AE1C53386800B20886 /* VoteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2944AD1C53386800B20886 /* VoteVC.m */; };
+		FF2944B11C5339B100B20886 /* GroupVotesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2944B01C5339B100B20886 /* GroupVotesTVC.m */; };
+		FF2944B41C53415300B20886 /* ResultsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2944B31C53415300B20886 /* ResultsVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +47,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF0711301C54846600C3C50E /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		FF0711311C54846600C3C50E /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		FF0711331C54847000C3C50E /* RegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterVC.h; sourceTree = "<group>"; };
+		FF0711341C54847000C3C50E /* RegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterVC.m; sourceTree = "<group>"; };
+		FF0711361C5484A700C3C50E /* SettingsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTVC.h; sourceTree = "<group>"; };
+		FF0711371C5484A700C3C50E /* SettingsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTVC.m; sourceTree = "<group>"; };
+		FF0711391C548DE100C3C50E /* settings icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "settings icon.png"; path = "GroupThink/Images/settings icon.png"; sourceTree = "<group>"; };
+		FF07113C1C548E3300C3C50E /* settings icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "settings icon@2x.png"; path = "GroupThink/Images/settings icon@2x.png"; sourceTree = "<group>"; };
+		FF07113E1C54923A00C3C50E /* xbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xbutton.png; path = GroupThink/Images/xbutton.png; sourceTree = "<group>"; };
+		FF07113F1C54923A00C3C50E /* xbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "xbutton@2x.png"; path = "GroupThink/Images/xbutton@2x.png"; sourceTree = "<group>"; };
 		FF29446D1C53358000B20886 /* GroupThink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupThink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF2944711C53358000B20886 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FF2944731C53358000B20886 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +79,10 @@
 		FF2944AA1C53384D00B20886 /* ChooseFriendsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseFriendsVC.m; sourceTree = "<group>"; };
 		FF2944AC1C53386800B20886 /* VoteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoteVC.h; sourceTree = "<group>"; };
 		FF2944AD1C53386800B20886 /* VoteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoteVC.m; sourceTree = "<group>"; };
+		FF2944AF1C5339B100B20886 /* GroupVotesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupVotesTVC.h; sourceTree = "<group>"; };
+		FF2944B01C5339B100B20886 /* GroupVotesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupVotesTVC.m; sourceTree = "<group>"; };
+		FF2944B21C53415300B20886 /* ResultsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsVC.h; sourceTree = "<group>"; };
+		FF2944B31C53415300B20886 /* ResultsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +110,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF07113B1C548DE900C3C50E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FF0711391C548DE100C3C50E /* settings icon.png */,
+				FF07113C1C548E3300C3C50E /* settings icon@2x.png */,
+				FF07113E1C54923A00C3C50E /* xbutton.png */,
+				FF07113F1C54923A00C3C50E /* xbutton@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		FF2944641C53358000B20886 = {
 			isa = PBXGroup;
 			children = (
+				FF07113B1C548DE900C3C50E /* Images */,
 				FF29446F1C53358000B20886 /* GroupThink */,
 				FF2944891C53358000B20886 /* GroupThinkTests */,
 				FF2944941C53358000B20886 /* GroupThinkUITests */,
@@ -120,6 +155,16 @@
 				FF2944AA1C53384D00B20886 /* ChooseFriendsVC.m */,
 				FF2944AC1C53386800B20886 /* VoteVC.h */,
 				FF2944AD1C53386800B20886 /* VoteVC.m */,
+				FF2944AF1C5339B100B20886 /* GroupVotesTVC.h */,
+				FF2944B01C5339B100B20886 /* GroupVotesTVC.m */,
+				FF2944B21C53415300B20886 /* ResultsVC.h */,
+				FF2944B31C53415300B20886 /* ResultsVC.m */,
+				FF0711361C5484A700C3C50E /* SettingsTVC.h */,
+				FF0711371C5484A700C3C50E /* SettingsTVC.m */,
+				FF0711301C54846600C3C50E /* LoginVC.h */,
+				FF0711311C54846600C3C50E /* LoginVC.m */,
+				FF0711331C54847000C3C50E /* RegisterVC.h */,
+				FF0711341C54847000C3C50E /* RegisterVC.m */,
 				FF2944791C53358000B20886 /* Main.storyboard */,
 				FF29447C1C53358000B20886 /* Assets.xcassets */,
 				FF29447E1C53358000B20886 /* LaunchScreen.storyboard */,
@@ -260,8 +305,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF2944801C53358000B20886 /* LaunchScreen.storyboard in Resources */,
+				FF07113D1C548E3300C3C50E /* settings icon@2x.png in Resources */,
+				FF0711401C54923A00C3C50E /* xbutton.png in Resources */,
 				FF29447D1C53358000B20886 /* Assets.xcassets in Resources */,
+				FF07113A1C548DE100C3C50E /* settings icon.png in Resources */,
 				FF29447B1C53358000B20886 /* Main.storyboard in Resources */,
+				FF0711411C54923A00C3C50E /* xbutton@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,9 +336,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF2944AE1C53386800B20886 /* VoteVC.m in Sources */,
+				FF2944B41C53415300B20886 /* ResultsVC.m in Sources */,
+				FF0711381C5484A700C3C50E /* SettingsTVC.m in Sources */,
+				FF0711321C54846600C3C50E /* LoginVC.m in Sources */,
 				FF2944A81C53382D00B20886 /* AddQuestionVC.m in Sources */,
 				FF2944AB1C53384D00B20886 /* ChooseFriendsVC.m in Sources */,
+				FF2944B11C5339B100B20886 /* GroupVotesTVC.m in Sources */,
 				FF2944A51C53380200B20886 /* HomeVC.m in Sources */,
+				FF0711351C54847000C3C50E /* RegisterVC.m in Sources */,
 				FF2944751C53358000B20886 /* AppDelegate.m in Sources */,
 				FF2944721C53358000B20886 /* main.m in Sources */,
 			);
@@ -523,6 +577,7 @@
 				FF29449C1C53358000B20886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF29449D1C53358000B20886 /* Build configuration list for PBXNativeTarget "GroupThinkTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +586,7 @@
 				FF29449F1C53358000B20886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF2944A01C53358000B20886 /* Build configuration list for PBXNativeTarget "GroupThinkUITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +595,7 @@
 				FF2944A21C53358000B20886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
