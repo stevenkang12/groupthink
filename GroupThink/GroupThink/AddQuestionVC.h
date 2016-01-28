@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OptionCell.h"
 
-@interface AddQuestionVC : UIViewController
+@interface AddQuestionVC : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@property (strong, nonatomic) IBOutlet UIButton *closeButton;
+@property (strong, nonatomic) IBOutlet UITableView *tableview;
 
 @end

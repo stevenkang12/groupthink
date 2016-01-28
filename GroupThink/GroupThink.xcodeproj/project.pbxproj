@@ -27,6 +27,8 @@
 		FF2944AE1C53386800B20886 /* VoteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2944AD1C53386800B20886 /* VoteVC.m */; };
 		FF2944B11C5339B100B20886 /* GroupVotesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2944B01C5339B100B20886 /* GroupVotesTVC.m */; };
 		FF2944B41C53415300B20886 /* ResultsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2944B31C53415300B20886 /* ResultsVC.m */; };
+		FF8E05481C59B5C300869E43 /* DismissSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8E05471C59B5C300869E43 /* DismissSegue.m */; };
+		FF8E054C1C59D4B300869E43 /* OptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8E054B1C59D4B300869E43 /* OptionCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,10 @@
 		FF2944B01C5339B100B20886 /* GroupVotesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupVotesTVC.m; sourceTree = "<group>"; };
 		FF2944B21C53415300B20886 /* ResultsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsVC.h; sourceTree = "<group>"; };
 		FF2944B31C53415300B20886 /* ResultsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsVC.m; sourceTree = "<group>"; };
+		FF8E05461C59B5C300869E43 /* DismissSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissSegue.h; sourceTree = "<group>"; };
+		FF8E05471C59B5C300869E43 /* DismissSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissSegue.m; sourceTree = "<group>"; };
+		FF8E054A1C59D4B300869E43 /* OptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionCell.h; sourceTree = "<group>"; };
+		FF8E054B1C59D4B300869E43 /* OptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +172,9 @@
 				FF0711331C54847000C3C50E /* RegisterVC.h */,
 				FF0711341C54847000C3C50E /* RegisterVC.m */,
 				FF2944791C53358000B20886 /* Main.storyboard */,
+				FF8E054A1C59D4B300869E43 /* OptionCell.h */,
+				FF8E054B1C59D4B300869E43 /* OptionCell.m */,
+				FF8E05491C59B5C800869E43 /* Custom Segues */,
 				FF29447C1C53358000B20886 /* Assets.xcassets */,
 				FF29447E1C53358000B20886 /* LaunchScreen.storyboard */,
 				FF2944811C53358000B20886 /* Info.plist */,
@@ -198,6 +207,15 @@
 				FF2944971C53358000B20886 /* Info.plist */,
 			);
 			path = GroupThinkUITests;
+			sourceTree = "<group>";
+		};
+		FF8E05491C59B5C800869E43 /* Custom Segues */ = {
+			isa = PBXGroup;
+			children = (
+				FF8E05461C59B5C300869E43 /* DismissSegue.h */,
+				FF8E05471C59B5C300869E43 /* DismissSegue.m */,
+			);
+			name = "Custom Segues";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,6 +356,7 @@
 				FF2944AE1C53386800B20886 /* VoteVC.m in Sources */,
 				FF2944B41C53415300B20886 /* ResultsVC.m in Sources */,
 				FF0711381C5484A700C3C50E /* SettingsTVC.m in Sources */,
+				FF8E054C1C59D4B300869E43 /* OptionCell.m in Sources */,
 				FF0711321C54846600C3C50E /* LoginVC.m in Sources */,
 				FF2944A81C53382D00B20886 /* AddQuestionVC.m in Sources */,
 				FF2944AB1C53384D00B20886 /* ChooseFriendsVC.m in Sources */,
@@ -345,6 +364,7 @@
 				FF2944A51C53380200B20886 /* HomeVC.m in Sources */,
 				FF0711351C54847000C3C50E /* RegisterVC.m in Sources */,
 				FF2944751C53358000B20886 /* AppDelegate.m in Sources */,
+				FF8E05481C59B5C300869E43 /* DismissSegue.m in Sources */,
 				FF2944721C53358000B20886 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
